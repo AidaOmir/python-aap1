@@ -23,4 +23,4 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Push image
-        run: docker push aidaomirbay/python-app1:1.0.0
+        run: docker push aidaomirbay/python-aap1:1.0.0
